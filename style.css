@@ -1,0 +1,31 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(18, 23, 27);
+    color: aliceblue;
+}
+.text{
+    font-size: 20pxpx;
+}
+.more-text{
+    display: none;
+}
+.read-more-btn{
+    padding: 10px 40px;
+    background-color: aliceblue;
+    color: rgb(53,49,49);
+    border: none;
+    outline: none;
+    cursor:pointer
+}
+
+/* whenever we have class show-more in class text in our span, more-text will be inline   */
+
+.text.show-more .more-text{
+    display: inline;
+}
+.text.show-more .dots{
+    display: none;
+}
